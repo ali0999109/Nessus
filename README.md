@@ -17,7 +17,8 @@
   ![image](https://github.com/ali0999109/Nessus/assets/145396907/f7d0e517-06da-438c-87d2-d5ccf309150e)
   ---
 - click on devices, network, network settings, host only adapter
-- type ipconfig and ping your ip address you should get a response back 
+- type ipconfig and ping your ip address you should get a response back
+  
   ![image](https://github.com/ali0999109/Nessus/assets/145396907/7158655d-acc6-42ca-8ec5-97dc4c0e759f)
   ---
 
@@ -51,7 +52,7 @@
 ----------------------------------------------------------------------------------------------------
 ![image](https://github.com/ali0999109/Nessus/assets/145396907/90b364a0-5633-4e0d-9992-3d8d3d7a3b99)
 ---
-# Installtion of vulnerable software
+# Installing vulnerable software
 - Download the older version of Google Chrome 2020 on the VM via https://www.slimjet.com/chrome/google-chrome-old-version.php
 - Go to system configuration > services > disable google update services > restart
 - Go to https://mcversions.net/download/1.18.1 > filter 2021 > Download Minecraft 1.18.1 (apache log vulnerability) 
