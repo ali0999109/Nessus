@@ -52,9 +52,46 @@
 ![image](https://github.com/ali0999109/Nessus/assets/145396907/90b364a0-5633-4e0d-9992-3d8d3d7a3b99)
 ---
 # Installtion of vulnerable software
--
+- Download the older version of Google Chrome 2020 on the VM via https://www.slimjet.com/chrome/google-chrome-old-version.php
+- Go to system configuration > services > disable google update services > restart
+- Go to https://mcversions.net/download/1.18.1 > filter 2021 > Download Minecraft 1.18.1 (apache log vulnerability) 
+- Go to https://7-zip.en.uptodown.com/windows/versions > download 19.00 > extract minecraft server file
+- Make sure your network adapter is Host-only Adapter
+  
+ ![image](https://github.com/ali0999109/Nessus/assets/145396907/c96c94da-8986-4009-a5fa-3933e3f1709e)
+  --------
+  # Advanced Nessus Scanning For Vulnerable Software
+  - Nessus will show all the vulnerabilities that were created on the VM
+    
+  ![image](https://github.com/ali0999109/Nessus/assets/145396907/363d9403-5495-477e-9a2c-e9532a1f8460)
+     ----
+  ![image](https://github.com/ali0999109/Nessus/assets/145396907/173d7f82-b586-4d84-8892-6ee809a0e079)
+  --------
+  ![image](https://github.com/ali0999109/Nessus/assets/145396907/f73bc631-1921-4c9d-94f2-fca43be6bb0d)
+  ----
+  ![image](https://github.com/ali0999109/Nessus/assets/145396907/0fb1ffca-2d2f-45b9-a375-2eef29be6f6d)
+  --------
+  # Generating a report 
+  - click on report top right corner > PDF will be downloaded of the report you can share with your team to remediate any issues
 
-=
+  ![image](https://github.com/ali0999109/Nessus/assets/145396907/d3c8912f-be08-4ca9-b7d5-fca6aa29c2bf)
+  ------
+  ![image](https://github.com/ali0999109/Nessus/assets/145396907/85008d6a-ba71-42f2-9c97-d7aa559ba069)
+  -----------
+  # Remediating the vulnerabilities 
+  - switch network adapter to bridged adapter
+  - go to windows update > resume updates
+  - System configuration > services > turn on google update services
+  - Downloads > delete Minecraft server file and remove from trash
+  - Run another vulnerability scan on Nessus to make sure everything is remediated
+    
+
+
+
+
+
+
+
 
 
 
